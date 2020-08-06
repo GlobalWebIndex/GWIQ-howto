@@ -1,6 +1,6 @@
 
 # GWIQ Tag Implementation Guide
-###How Does It Work? What Are GWIQ Tags?
+### How Does It Work? What Are GWIQ Tags?
 
 GWIQ tags are applied to your website or digital campaign to connect the GlobalWebIndex panel to your digital property. They make a call to the globalwebindex.net domain when a user visits your digital platform or is exposed to your campaign.
 
@@ -152,12 +152,13 @@ If the platform/site you are using requires third party tracking services to be 
 #### IAB TCF version 2.0 support
 
 Globalwebindex is registered vendor on the IAB Global Vendor list with an id 536.
-In order to validate users consensts against the framework the img tag should look as follow:
+
+In order to validate users consensts against the TCF version 2.0 framework the img tag should look as follow:
 
 ```
 <img src="https://gwiq.globalwebindex.net/gwiq/img/?cid=%cid%&key1=%value%&gdpr={GDPR}&gdpr_consent=${GDPR_CONSENT_536}" width="1" height="1" style="display:none"/>
 ```
 
 
-##### Still having trouble?
+## Still having trouble?
 If you have any questions or difficulty implementing the tag, please contact your GWI Account Manager.

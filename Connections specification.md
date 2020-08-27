@@ -71,6 +71,6 @@ GWI holds the following information on each attribute
 - Question label - A short description of the question (e.g. “Gender”)
 - Data point text - The text of the data point selected (e.g. Male)
 - Option text (Optional) - For questions that are asked in a grid we will have a text which represents the option(s) the respondent chose for each data point. e.g. 
-- The datapoints and the optiosn are represented with a single column in the data. E.g. q4_1_5 (Question Code_Data point code_ Option code)
+- The datapoints and the options are represented with a single column in the data. E.g. q4_1_5 (Question Code_Data point code_ Option code)
 
 Labels can be accessed using an API or delivered in a separate file.

@@ -13,7 +13,7 @@ NOTE: It is ALWAYS reccomended to test a tag is working via a test page and test
 ### How Do I Generate Tags?
 GWI issues unique tag for each campaign/website that needs tracking implemented. Contact your account manager if you wish to begin tracking a new property. 
   
-### Tag Parameters
+## Tag Parameters
 When GWI generates a tag the following items will need to be considered for all versions of GWIQ tagging.
 
 #### CampaignID (cid)

@@ -6,7 +6,7 @@ This guide is for both publishers, agencies and ad trafficers implementing a GWI
 ### How Does It Work? What Are GWIQ Tags?
 GWIQ tags are applied to your website or digital campaign to connect the GWI panel to your digital property. Provided the tag is implemented correctly,  the tag makes a call to the globalwebindex.net domain when a user visits your digital platform or a user is exposed to your advertising campaign.
 
-The tags allow trafficers to add platform macros (DV 360, GAM, etc) if there is a need to track multiple adverts, etc under the same tag.
+The tags allow trafficers to ad platform macros (DV 360, GAM, etc) if there is a need to track multiple placements under the same tag.
 
 NOTE: It is ALWAYS reccomended to test a tag is working via a test page and test data is being recived by GWI. In order to ensure implemetation/trafficing of the tag has been performed correctly.  
 
@@ -17,12 +17,12 @@ GWI issues unique tag for each campaign/website that needs tracking implemented.
 When GWI generates a tag the following items will need to be considered for all versions of GWIQ tagging.
 
 #### CampaignID (cid)
-This will be supplied by GWI and is unique to the campaign being tracked. All elements of a single campaign must be tracked with the same CampaignID. A new CampaignID must be used for each new campaign being tracked. Data is attributed to the relevant CampaignID
+This will be supplied by GWI and is unique to the campaign being tracked. All elements of a single campaign must be tracked with the same CampaignID. Data is attributed to the relevant CampaignID therfore a new CampaignID must be used for each new campaign being tracked.
 
-NOTE: Making sure you use the correct cid avoids data being incorrectly attributed to the wrong campaignID in our systems.
+NOTE: Making sure you use the correct cid avoids data being attributed to the wrong campaignID in GWI systems.
 
 #### Key-Value Pairs
-Key-value pairs, added to our tags at the point of generation. They allow additional information to be passed to GWI for the purpose of segmentation.
+Key-value pairs, added to our tags at the point of tag generation. They allow additional information to be passed to GWI for the purpose of segmentation.
 
 NOTE: Key-Value Pairs must be agreed with GWI at the point of tag generation before campaign launches. Without approval a key will be removed in data cleaning and cannot be recovered. Only information passed to the tag will be available for segmentation.
 

@@ -14,7 +14,7 @@ NOTE: It is ALWAYS reccomended to test a tag is working via a test page and test
 GWI issues unique tag for each campaign/website that needs tracking implemented. Contact your account manager if you wish to begin tracking a new property. 
   
 ## Tag Parameters
-When GWI generates a tag the following items will need to be considered for all versions of GWIQ tagging.
+When GWI generates a tag the following items need to be considered for all versions of GWIQ tagging.
 
 #### CampaignID (cid)
 This will be supplied by GWI and is unique to the campaign being tracked. All elements of a single campaign must be tracked with the same CampaignID. Data is attributed to the relevant CampaignID therfore a new CampaignID must be used for each new campaign being tracked.

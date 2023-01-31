@@ -22,9 +22,9 @@ This will be supplied by GWI and is unique to the campaign being tracked. All el
 NOTE: Making sure you use the correct cid avoids data being attributed to the wrong campaignID in GWI systems.
 
 #### Key-Value Pairs
-Key-value pairs, added to our tags at the point of tag generation. They allow additional information to be passed to GWI for the purpose of segmentation.
+Key-value pairs, added to our tags at the point of tag generation allow additional information to be passed to GWI for the purpose of segmentation.
 
-NOTE: Key-Value Pairs must be agreed with GWI at the point of tag generation before campaign launches. Without approval a key will be removed in data cleaning and cannot be recovered. Only information passed to the tag will be available for segmentation.
+NOTE: Key-Value Pairs must be agreed with GWI at the point of tag generation before a tag is implmented, and a campaign launches. Without approval a key will be removed in data cleaning and cannot be recovered. Only information passed to the tag will be available for segmentation.
 
 - Keys are the categories of data for segmentation. (e.g. if you would like to split by placement, creative or site, each category would be a different key within the tag to capture each of these peices of data for each impression).
 
@@ -50,7 +50,7 @@ Here are the cid and two key value pairs, key1 and key2.
  
  key2=[EnterYourSecondValueHere]
  
- In this example you can see the cid has been provided to you by GWI it will look like: 
+ In this example you can see the cid has been provided to you by GWI it will look someing like: 
  
  cid=c1027 
  
@@ -58,30 +58,39 @@ Here are the cid and two key value pairs, key1 and key2.
  After implemtation they might look like:
  
  key1=82374
+ 
  key2=footballadvert
  
  Or you might want to use macros for ease of implemetnation across multiple placements. If you were using DV360 they might look like:
  
-  key1=${CREATIVE_ID}
-  key2=${CLICK_URL}
+ key1=${CREATIVE_ID}
+  
+ key2=${CLICK_URL}
 
-As per the documentaion of the platform being used. Here is DV360s macro documentation as an example
-[
-](https://support.google.com/displayvideo/answer/2789508?hl=en)
+Macros can be added per the documentaion of the platform being used. Here is DV360s macro documentation as an example:
 
+https://support.google.com/displayvideo/answer/2789508?hl=en
+
+
+In the example above the final tag that has been amended by a clients team to suit the platfom serving it, DV360 in this case and placed on a campagin would look like this:
+
+```
+https://gwiq.globalwebindex.net/gwiq/img/?cid=c1027&key1=${CREATIVE_ID}&key2=${CLICK_URL}
+```
 
 NOTE: Make sure to create a test page for any trafficed tag to check the tag is fireing and data is being recived correctly. 
 
 Please inform GWI if you would like each value translated to more human-readable text in the platform. E.g. code 123456 -> ‘Retargeting Banner Concept 2’. If this is not provided, the value passed in the tag will be displayed in the platform as is. 
 
 #### Technical Requirements
-Each key is unique within a tag fire
-Keys must be lowercase
-Alphanumeric
-No spaces
-No URL encoded characters
-Length Limit: 64 characters per key and per value
-When implementing the tags above be sure to implement any of the key-value pairs you would like to track. Many platforms offer the option of using ‘macros’, (Example - AppNexus) which can help automatically specify data about each placement when the tag fires. This makes it possible to segment multiple placements with a single tag implementation.
+- Each key is unique within a tag fire
+- Keys must be lowercase
+- Alphanumeric
+- No spaces
+- No URL encoded characters
+- Length Limit: 64 characters per key and per value
+
+When implementing the tags be sure to implement any of the key-value pairs you want to track. As mentioned many platforms offer the option of using ‘macros’, (Example - AppNexus) which help automatically specify data about each placement when the tag fires. This makes it possible to segment multiple placements with a single tag implementation.
 
 #### HTTP vs HTTPS
 The default tag is created without a declared secured vs unsecured protocol. With the JavaScript tag, this will adopt the protocol used by the site at the time. If using the image pixel / URL tag, the tag should adopt the protocol of the site. However, some services require this to be explicitly declared. In these cases please prefix ‘http:’ or ‘https:’ before the ‘//gwiq’ in src of the tag.

@@ -90,6 +90,8 @@ https://gwiq.globalwebindex.net/gwiq/img/?cid=c1027&key1=${CREATIVE_ID}&key2=${C
 
 NOTE: Make sure to create a test page for any trafficed tag to check the tag is fireing and data is being recived correctly. 
 
+NOTE: The tag will fail to fire if any '%' are present in the tag that is loaded on the browser. 
+
 Please inform GWI if you would like each value translated to more human-readable text in the platform. E.g. code 123456 -> ‘Retargeting Banner Concept 2’. If this is not provided, the value passed in the tag will be displayed in the platform as is. 
 
 #### Technical Requirements

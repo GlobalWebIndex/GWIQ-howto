@@ -26,7 +26,7 @@ NOTE: It is ALWAYS reccomended to test a tag is working via a test page and test
 GWI issues unique tag for each campaign/website that needs tracking implemented. Contact your account manager if you wish to begin tracking a new property. 
   
 ## Tag Parameters
-When GWI generates a tag the following items need to be considered for all versions of GWIQ tagging.
+When GWI generates a tag the following items need to be considered for all versions of GWIQ tagging. 
 
 #### CampaignID (cid)
 This will be supplied by GWI and is unique to the GWIQ campaign being tracked. All elements of a single GWIQ campaign must be tracked with the same CampaignID. Data is attributed to the relevant CampaignID therfore a new CampaignID must be used for each new campaign being tracked.
@@ -34,13 +34,16 @@ This will be supplied by GWI and is unique to the GWIQ campaign being tracked. A
 NOTE: Making sure you use the correct cid avoids data being attributed to the wrong campaignID in GWIQ systems.
 
 #### Key-Value Pairs
-Key-value pairs, added to our tags at the point of tag generation allow additional information to be passed to GWI for the purpose of segmentation.
+
+Key-value pairs, are added to our tags at the point of tag generation and allow additional information to be passed to GWI for the purpose of segmentation.
 
 NOTE: Key-Value Pairs must be agreed with GWI at the point of tag generation before a tag is implmented, and a campaign launches. Without approval a key will be removed in data cleaning and cannot be recovered. Only information passed to the tag will be available for segmentation.
 
 - Keys are the categories of data for segmentation. (e.g. if you would like to split by placement, creative or site, each category would be a different key within the tag to capture each of these peices of data for each impression).
 
 - Values are the individual segments that are sent to GWI when the tag fires. (e.g. if creative is your key, you could use text like ‘MPU’ or ID codes like ‘123456’ as potential values.) 
+
+When we generate and send you a tag, we have used a placeholder for the values in each key-value pair which usually takes the form of %value%, etc. - you will need to replace each of these values placeholders with the appropriate macro used by your ad, or tag manager.
 
 NOTE: Values are changed by the person implementing the tag on a ad platform, campaign or website. You can also use macros from a relevant platform if you wish. 
 

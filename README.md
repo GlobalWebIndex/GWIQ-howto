@@ -1,8 +1,8 @@
 # GWIQ Tag Implementation Guide
 
 ### Who is this guide for?
-This guide is for people implementing a GWI tag on their website or advertisement. 
-We will cover some [basic information](https://github.com/asifimranaziz/GWIQ-howto/edit/Update-instructions-for-agencies-1/README.md#how-does-it-work-what-are-gwiq-tags) about the tags we provide.
+This guide is for people implementing a GWIQ tag on their website or advertisement. 
+We will cover some [essential information for everyone](https://github.com/asifimranaziz/GWIQ-howto/edit/Update-instructions-for-agencies-1/README.md#how-does-it-work-what-are-gwiq-tags) about the tags we provide.
 
 Second, we will cover [how parameters work](https://github.com/asifimranaziz/GWIQ-howto/edit/Update-instructions-for-agencies-1/README.md#tag-parameters) in our tags
 
@@ -13,10 +13,12 @@ We then move on to the different types of ways to implement a tag depending on t
 - If you are a publisher refer to [this](https://github.com/asifimranaziz/GWIQ-howto/edit/Update-instructions-for-agencies-1/README.md#tag-types-primaritly-for-publishers) section
 
 
+##Essential information (for everyone)
+
 ### How Does It Work? What Are GWIQ Tags?
 GWIQ tags are applied to your website or digital campaign to connect the GWI panel to your digital property. Provided the tag is implemented correctly,  the tag makes a call to the globalwebindex.net domain when a user visits your digital platform or a user is exposed to your advertising campaign.
 
-The tags allow trafficers to ad platform macros (DV 360, GAM, etc) if there is a need to track multiple placements under the same tag.
+The tags allow trafficers to ad platform [macros](https://github.com/asifimranaziz/GWIQ-howto/edit/Update-instructions-for-agencies-1/README.md#macros---what-are-they) (DV 360, GAM, etc) if there is a need to track multiple placements under the same tag.
 
 NOTE: It is ALWAYS reccomended to test a tag is working via a test page and test data is being recived by GWI. In order to ensure implemetation/trafficing of the tag has been performed correctly.  
 
@@ -27,9 +29,9 @@ GWI issues unique tag for each campaign/website that needs tracking implemented.
 When GWI generates a tag the following items need to be considered for all versions of GWIQ tagging.
 
 #### CampaignID (cid)
-This will be supplied by GWI and is unique to the campaign being tracked. All elements of a single campaign must be tracked with the same CampaignID. Data is attributed to the relevant CampaignID therfore a new CampaignID must be used for each new campaign being tracked.
+This will be supplied by GWI and is unique to the GWIQ campaign being tracked. All elements of a single GWIQ campaign must be tracked with the same CampaignID. Data is attributed to the relevant CampaignID therfore a new CampaignID must be used for each new campaign being tracked.
 
-NOTE: Making sure you use the correct cid avoids data being attributed to the wrong campaignID in GWI systems.
+NOTE: Making sure you use the correct cid avoids data being attributed to the wrong campaignID in GWIQ systems.
 
 #### Key-Value Pairs
 Key-value pairs, added to our tags at the point of tag generation allow additional information to be passed to GWI for the purpose of segmentation.

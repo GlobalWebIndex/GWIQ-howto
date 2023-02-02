@@ -102,7 +102,17 @@ Please inform GWI if you would like each value translated to more human-readable
 - No URL encoded characters
 - Length Limit: 64 characters per key and per value
 
-When implementing the tags be sure to implement any of the key-value pairs you want to track. As mentioned many platforms offer the option of using ‘macros’, (Example - AppNexus) which help automatically specify data about each placement when the tag fires. This makes it possible to segment multiple placements with a single tag implementation.
+When implementing the tags be sure to implement any of the key-value pairs you want to track. 
+
+#### Macros - What are they?
+As mentioned many platforms offer the option of using ‘macros’.Macros are placeholder strings in creative codes. The platform will replace the string with another value or code based on — the creatives, page, setting, etc. depending on the macro in use.
+
+This helps automatically specify data about each placement when the tag fires. This makes it possible to segment multiple placements with a single tag.
+
+Here are some links to popular plattfoms documentation on Macros
+- Google Ads Manager (GAM) - https://support.google.com/admanager/answer/2376981?hl=en
+- Display and Video 360 (DV360) - https://support.google.com/displayvideo/answer/2789508?hl=en
+
 
 #### HTTP vs HTTPS
 The default tag is created without a declared secured vs unsecured protocol. With the JavaScript tag, this will adopt the protocol used by the site at the time. If using the image pixel / URL tag, the tag should adopt the protocol of the site. However, some services require this to be explicitly declared. In these cases please prefix ‘http:’ or ‘https:’ before the ‘//gwiq’ in src of the tag.

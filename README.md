@@ -1,7 +1,17 @@
 # GWIQ Tag Implementation Guide
 
 ### Who is this guide for?
-This guide is for both publishers, agencies and ad trafficers implementing a GWI tag on their website or advertisment. 
+This guide is for people implementing a GWI tag on their website or advertisement. 
+We will cover some [basic information](https://github.com/asifimranaziz/GWIQ-howto/edit/Update-instructions-for-agencies-1/README.md#how-does-it-work-what-are-gwiq-tags) about the tags we provide.
+
+Second, we will cover [how parameters work](https://github.com/asifimranaziz/GWIQ-howto/edit/Update-instructions-for-agencies-1/README.md#tag-parameters) in our tags
+
+We then move on to the different types of ways to implement a tag depending on the technology being used to host it. 
+
+- If you are an agency or ad trafficker refer to [this](https://github.com/asifimranaziz/GWIQ-howto/edit/Update-instructions-for-agencies-1/README.md#tag-types-primaritly-for-ad-trafficers-and-agencies) section
+
+- If you are a publisher refer to [this](https://github.com/asifimranaziz/GWIQ-howto/edit/Update-instructions-for-agencies-1/README.md#tag-types-primaritly-for-publishers) section
+
 
 ### How Does It Work? What Are GWIQ Tags?
 GWIQ tags are applied to your website or digital campaign to connect the GWI panel to your digital property. Provided the tag is implemented correctly,  the tag makes a call to the globalwebindex.net domain when a user visits your digital platform or a user is exposed to your advertising campaign.

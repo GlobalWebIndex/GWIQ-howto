@@ -114,6 +114,10 @@ As mentioned many platforms offer the option of using ‘macros’.Macros are pl
 
 This helps automatically specify data about each placement when the tag fires. This makes it possible to segment multiple placements with a single tag.
 
+Each platform has its own format for Macros, and you should replace our placeholders with the correct ones prior to trafficking. 
+Example from Google Ads Manager: %%device%%,
+Example from Adform: %%ADFCREID%%
+
 Here are some links to popular platforms documentation on Macros
 - Google Ads Manager (GAM) - https://support.google.com/admanager/answer/2376981?hl=en
 - Display and Video 360 (DV360) - https://support.google.com/displayvideo/answer/2789508?hl=en

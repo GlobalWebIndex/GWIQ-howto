@@ -102,9 +102,9 @@ Please inform GWI if you would like each value translated to more human-readable
 #### Technical Requirements
 - Each key is unique within a tag fire
 - Keys must be lowercase
-- Alphanumeric
-- No spaces
-- No URL-encoded characters
+- Each key should be alphanumeric
+- There should be no spaces in each key
+- There should be no URL-encoded characters in each key
 - Length Limit: 64 characters per key and per value
 
 When implementing the tags be sure to implement any of the key-value pairs you want to track. 

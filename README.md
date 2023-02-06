@@ -126,8 +126,6 @@ Here are some links to popular platforms documentation on Macros
 #### HTTP vs HTTPS
 The default tag is created without a declared secured vs unsecured protocol. With the JavaScript tag, this will adopt the protocol used by the site at the time. If using the image pixel / URL tag, the tag should adopt the protocol of the site. However, some services require this to be explicitly declared. In these cases please prefix ‘http:’ or ‘https:’ before the ‘//gwiq’ in src of the tag.
 
-## Tag Types
-
 ## Tag Types primarily for Ad traffickers and Agencies
 
 #### Image Pixel `<img>` (Campaign Analytics)

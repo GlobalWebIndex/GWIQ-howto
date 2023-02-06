@@ -152,10 +152,9 @@ The URL tag can be useful for certain platforms that do not allow custom HTML/im
 https://gwiq.globalwebindex.net/gwiq/img/?cid=%cid%&key1=%value%
 ```
 
-##### Hard-Coding Into Creative
+## Hard-Coding option
 In cases where the above is not an option, the image pixel can be hard-coded into the creative when it is authored.
 
-## Tag Types primarily for publishers
 
 ##### Websites
 The tag should be placed in the `<head>` of the website alongside other analytics tags you may already use.

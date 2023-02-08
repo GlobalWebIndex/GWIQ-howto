@@ -2,15 +2,15 @@
 
 ### Who is this guide for?
 This guide is for people implementing a GWIQ tag on their website or advertisement. 
-We will cover some [essential information for everyone](https://github.com/asifimranaziz/GWIQ-howto/edit/Update-instructions-for-agencies-1/README.md#how-does-it-work-what-are-gwiq-tags) about the tags we provide.
+We will cover some essential information for everyone about the tags we provide.
 
-Second, we will cover [how parameters work](https://github.com/asifimranaziz/GWIQ-howto/Update-instructions-for-agencies-1/README.md#tag-parameters) in our tags
+Second, we will cover how parameters work in our tags
 
 We then move on to the different types of ways to implement a tag depending on the technology being used to host it. 
 
-- If you are an agency or ad trafficker refer to [this](https://github.com/asifimranaziz/GWIQ-howto/Update-instructions-for-agencies-1/README.md#tag-types-primaritly-for-ad-trafficers-and-agencies) section
+- If you are an agency or ad trafficker refer to the Tag Types primarily for Ad traffickers and Agencies section.
 
-- If you are a publisher refer to [this](https://github.com/asifimranaziz/GWIQ-howto/Update-instructions-for-agencies-1/README.md#tag-types-primaritly-for-publishers) section
+- If you are a publisher refer to the Hard code option section.
 
 
 ##Essential information (for everyone)

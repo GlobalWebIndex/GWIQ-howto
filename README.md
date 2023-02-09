@@ -13,7 +13,7 @@ We then move on to the different types of ways to implement a tag depending on t
 - If you are a publisher refer to the Hard code option section.
 
 
-##Essential information (for everyone)
+## Essential information (for everyone)
 
 ### How Does It Work? What Are GWIQ Tags?
 GWIQ tags are applied to your website or digital campaign to connect the GWI panel to your digital property. Provided the tag is implemented correctly,  the tag makes a call to the globalwebindex.net domain when a user visits your digital platform or a user is exposed to your advertising campaign.

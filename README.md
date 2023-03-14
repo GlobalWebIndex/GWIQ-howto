@@ -23,7 +23,7 @@ The tags allow traffickers to ad platform [macros](https://github.com/asifimrana
 NOTE: It is ALWAYS recommended to test if a tag is working via a test page and if test data is being received by GWI. In order to ensure implementation/trafficking of the tag has been performed correctly.  
 
 ### How Do I Generate Tags?
-GWI issues a unique tag for each campaign/website that needs tracking implemented. Contact your account manager if you wish to begin tracking a new property. 
+GWI issues a unique tag for each campaign that needs tracking implemented. Contact your account manager if you wish to begin tracking a new property. 
   
 ## Tag Parameters
 When GWI generates a tag the following items need to be considered for all versions of GWIQ tagging. 
